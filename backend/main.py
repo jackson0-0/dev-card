@@ -7,7 +7,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "https://dev-card-production.up.railway.app"],
+    allow_origins=["http://localhost:3000", "https://dev-card-production.up.railway.app", "https://dev-card-f3q5.vercel.app"],
     allow_methods=["*"],
     allow_headers=["*"],
 )

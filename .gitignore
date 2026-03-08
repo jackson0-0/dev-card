@@ -21,3 +21,20 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# database
+backend/devcard.db
+
+# react
+node_modules/
+build/
+
+# misc
+.DS_Store

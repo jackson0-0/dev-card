@@ -24,7 +24,7 @@ function LinkInBio() {
 
   let skills = [];
   if (data.skills) {
-    skills = data.skills.replace(/[\[\]']/g, "").split(", ");
+    skills = data.skills.replace(/[[\]']/g, "").split(", ");
   }
 
   return (

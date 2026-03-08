@@ -6,7 +6,7 @@ function LinkInBio() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:8000/card/" + username)
+    fetch("https://dev-card-production.up.railway.app/card/" + username)
       .then((res) => res.json())
       .then((data) => setData(data));
   }, [username]);

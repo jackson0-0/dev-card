@@ -68,7 +68,7 @@ function Generator() {
   }
 
   function saveCard() {
-    fetch("http://localhost:8000/save-card", {
+    fetch("https://dev-card-production.up.railway.app/save-card", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(cardData),
